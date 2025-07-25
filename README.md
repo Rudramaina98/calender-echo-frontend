@@ -68,3 +68,23 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+Frontend Structure 
+
+frontend/
+├── public/
+│   └── index.html           # Main HTML file
+├── src/
+│   ├── components/
+│   │   ├── Calendar.js      # Calendar display component
+│   │   ├── VoiceInput.js    # Voice input handling component
+│   │   └── EventForm.js     # Form for manual event input
+│   ├── services/
+│   │   ├── apiService.js    # API call handlers
+│   │   └── speechService.js  # Web Speech API logic
+│   ├── App.js               # Main app component
+│   ├── index.js             # React entry point
+│   └── styles/
+│       └── App.css          # CSS styles
+├── package.json             # Frontend dependencies
